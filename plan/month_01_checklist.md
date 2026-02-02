@@ -20,7 +20,7 @@
 ## День 1 — настроить базу (окружение + GitHub)
 
 * [x] Установить/обновить Python 3.10+ (или убедиться, что он установлен).
-* [ ] Установить conda или создать виртуальное окружение:
+* [x] Установить conda или создать виртуальное окружение:
 
   ```bash
   conda create -n ml python=3.10 -y
@@ -30,15 +30,15 @@
   source .venv/bin/activate   # linux/mac
   .\.venv\Scripts\activate  # windows
   ```
-* [ ] Установить базовые пакеты:
+* [x] Установить базовые пакеты:
 
   ```bash
   pip install --upgrade pip
   pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn notebook
   pip install jupyterlab
   ```
-* [ ] Создать GitHub аккаунт (если нет) и публичный репозиторий `ml-track`.
-* [ ] Инициализировать локально git, сделать первый commit с `README.md`:
+* [x] Создать GitHub аккаунт (если нет) и публичный репозиторий `ml-track`.
+* [x] Инициализировать локально git, сделать первый commit с `README.md`:
 
   ```bash
   git init
